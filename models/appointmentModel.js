@@ -1,12 +1,12 @@
 const mongoose = require("mongoose")
 
 const appointmentSchema = new mongoose.Schema({
-    date :{ type: String, required : true},
-    time: { type: String, required: true},
+    date: { type: String, required: true },
+    time: { type: String, required: true },
 
 
 })
 
-const Appointment = mongoose.model("appointment",appointmentSchema)
+const Appointment = mongoose.model("appointments", appointmentSchema)
 
-module.exports=Appointment
+module.exports = Appointment

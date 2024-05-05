@@ -1,5 +1,5 @@
 const express = require("express")
-const contactController = require('../controllers/contactControllers')
+const contactController = require('../controllers/contactController')
 const appointmentController = require("../controllers/appointmentController")
 const reservationController = require("../controllers/reservationController")
 
